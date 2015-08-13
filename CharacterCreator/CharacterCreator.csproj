@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataForms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DataForms\PathfinderClassForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,9 +74,11 @@
     <Compile Include="Data\BaseData.cs" />
     <Compile Include="Data\ClassData.cs" />
     <Compile Include="Data\SkillData.cs" />
+    <Compile Include="Data\TraitData.cs" />
     <Compile Include="Enumerations\HitDiceProgression.cs" />
     <Compile Include="Enumerations\SaveProgression.cs" />
     <Compile Include="Enumerations\StatType.cs" />
+    <Compile Include="Enumerations\TraitType.cs" />
     <Compile Include="Helpers\FileIO.cs" />
     <Compile Include="PathfinderAdmin.cs">
       <SubType>Form</SubType>
@@ -88,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DataForms\PathfinderSkillForm.resx">
       <DependentUpon>PathfinderSkillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\PathfinderTraitForm.resx">
+      <DependentUpon>PathfinderTraitForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PathfinderAdmin.resx">
       <DependentUpon>PathfinderAdmin.cs</DependentUpon>

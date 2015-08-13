@@ -79,3 +79,55 @@ namespace CharacterCreator.DataForms
 		}
 	}
 }
+
+
+/*
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using CharacterCreator.Enumerations;
+using CharacterCreator.Data;
+
+namespace CharacterCreator.DataForms
+{
+	public partial class PathfinderSkillForm : BaseForm<SkillData>
+	{
+		public PathfinderSkillForm() : base()
+		{
+			this.InitializeComponent();
+
+			this.savePath = @"C:\Projects\Pathfinder\CharacterCreator\CharacterCreator\Data\XmlData\Skills.xml";
+			this.displayMember = "SkillName";
+			this.DataSetUp();
+		}
+
+		protected override void SetUpBindings()
+		{
+			this.statBox.DataSource = StatType.GetValues(typeof(StatType));
+
+			this.skillNameBox.DataBindings.Clear();
+			this.skillDescriptionBox.DataBindings.Clear();
+			this.statBox.DataBindings.Clear();
+
+			this.skillNameBox.DataBindings.Add("Text", this.data, "SkillName");
+			this.skillDescriptionBox.DataBindings.Add("Text", this.data, "SkillDescription");
+			this.statBox.DataBindings.Add("SelectedItem", this.data, "SkillStat", false, DataSourceUpdateMode.OnPropertyChanged);
+		}
+
+		protected override void SaveData()
+		{
+			StatType statType;
+			Enum.TryParse<StatType>(this.statBox.SelectedValue.ToString(), out statType);
+			this.data.SkillName = this.skillNameBox.Text;
+			this.data.SkillDescription = this.skillDescriptionBox.Text;
+			this.data.SkillStat = statType;
+		}
+	}
+}
+*/
