@@ -14,7 +14,7 @@ namespace CharacterCreator.DataForms
 {
 	public partial class PathfinderSkillForm : Form
 	{
-		private string savePath = @"C:\Projects\Pathfinder\CharacterCreator\CharacterCreator\Data\XmlData\Skills.xml";
+		private string savePath = @"C:\Projects\CharacterCreator\CharacterCreator\Data\XmlData\Skills.xml";
 
 		private BindingList<SkillData> skillList = new BindingList<SkillData>();
 		private SkillData skillData = null;
@@ -41,12 +41,8 @@ namespace CharacterCreator.DataForms
 			this.statBox.DataBindings.Add("SelectedItem", this.skillData, "SkillStat", false, DataSourceUpdateMode.OnPropertyChanged);
 		}
 
-		private void saveToolStripMenuItem_Click(object sender, EventArgs e)
-		{
-			this.SaveSkillData();
-			CharacterCreator.Helpers.FileIO.Save<BindingList<SkillData>>(this.skillList, this.savePath);
-		}
-
+		// This is necessary, even with the bindings, in case a user saves while they are still modifying a field
+		// The databinding doesn't trigger until after the update is "complete", so we force it
 		private void SaveSkillData()
 		{
 			StatType statType;
@@ -54,6 +50,12 @@ namespace CharacterCreator.DataForms
 			this.skillData.SkillName = this.skillNameBox.Text;
 			this.skillData.SkillDescription = this.skillDescriptionBox.Text;
 			this.skillData.SkillStat = statType;
+		}
+
+		private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			this.SaveSkillData();
+			CharacterCreator.Helpers.FileIO.Save<BindingList<SkillData>>(this.skillList, this.savePath);
 		}
 
 		private void skillsBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -79,55 +81,3 @@ namespace CharacterCreator.DataForms
 		}
 	}
 }
-
-
-/*
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using CharacterCreator.Enumerations;
-using CharacterCreator.Data;
-
-namespace CharacterCreator.DataForms
-{
-	public partial class PathfinderSkillForm : BaseForm<SkillData>
-	{
-		public PathfinderSkillForm() : base()
-		{
-			this.InitializeComponent();
-
-			this.savePath = @"C:\Projects\Pathfinder\CharacterCreator\CharacterCreator\Data\XmlData\Skills.xml";
-			this.displayMember = "SkillName";
-			this.DataSetUp();
-		}
-
-		protected override void SetUpBindings()
-		{
-			this.statBox.DataSource = StatType.GetValues(typeof(StatType));
-
-			this.skillNameBox.DataBindings.Clear();
-			this.skillDescriptionBox.DataBindings.Clear();
-			this.statBox.DataBindings.Clear();
-
-			this.skillNameBox.DataBindings.Add("Text", this.data, "SkillName");
-			this.skillDescriptionBox.DataBindings.Add("Text", this.data, "SkillDescription");
-			this.statBox.DataBindings.Add("SelectedItem", this.data, "SkillStat", false, DataSourceUpdateMode.OnPropertyChanged);
-		}
-
-		protected override void SaveData()
-		{
-			StatType statType;
-			Enum.TryParse<StatType>(this.statBox.SelectedValue.ToString(), out statType);
-			this.data.SkillName = this.skillNameBox.Text;
-			this.data.SkillDescription = this.skillDescriptionBox.Text;
-			this.data.SkillStat = statType;
-		}
-	}
-}
-*/

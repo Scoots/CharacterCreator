@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CharacterCreator.DataForms
 {
-	public partial class PathfinderFeatForm : Form
+	public partial class PathfinderRacialTraitForm : Form
 	{
-		public PathfinderFeatForm()
+		public PathfinderRacialTraitForm()
 		{
 			InitializeComponent();
 		}

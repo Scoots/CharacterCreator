@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CharacterCreator.DataForms;
+using CharacterCreator.DataForms.TraitForms;
+using CharacterCreator.DataForms.FeatForms;
 
 namespace CharacterCreator
 {
@@ -39,6 +41,12 @@ namespace CharacterCreator
 		private void traitToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			Form form = new PathfinderTraitForm();
+			form.Show();
+		}
+
+		private void modifiersToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			Form form = new PathfinderModifierForm();
 			form.Show();
 		}
 	}

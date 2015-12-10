@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFeatData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FeatData>
+    <Id>e1022bdb380b440e94477549b871e3af</Id>
+    <FeatName>New Feat</FeatName>
+    <ModifierIdList />
+  </FeatData>
+</ArrayOfFeatData>

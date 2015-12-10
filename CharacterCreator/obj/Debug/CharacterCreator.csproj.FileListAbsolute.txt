@@ -1,0 +1,17 @@
+C:\Projects\CharacterCreator\CharacterCreator\bin\Debug\CharacterCreator.exe.config
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.csprojResolveAssemblyReference.cache
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.DataForms.PathfinderClassForm.resources
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.DataForms.PathfinderSkillForm.resources
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.PathfinderAdmin.resources
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.Properties.Resources.resources
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.csproj.GenerateResource.Cache
+C:\Projects\CharacterCreator\CharacterCreator\bin\Debug\CharacterCreator.exe
+C:\Projects\CharacterCreator\CharacterCreator\bin\Debug\CharacterCreator.pdb
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.exe
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.pdb
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.DataForms.PathfinderModifierForm.resources
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.DataForms.PathfinderRacialTraitForm.resources
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.DataForms.FeatForms.PathfinderFeatForm.resources
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.DataForms.TraitForms.PathfinderTraitForm.resources
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.DataForms.SharedForms.ModifierForm.resources
+C:\Projects\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.DataForms.FeatForms.FeatTypeForm.resources

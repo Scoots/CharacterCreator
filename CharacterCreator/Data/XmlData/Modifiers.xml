@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfModifierData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModifierData>
+    <Id>80becc026ef74023af7ac803011adda5</Id>
+    <ModifierName>+1 Attack</ModifierName>
+    <ModifierDescription>Raises attack 1</ModifierDescription>
+    <ModificationType>Attack</ModificationType>
+    <ModificationAmount>1</ModificationAmount>
+    <AttackBonusType>Enhancement</AttackBonusType>
+    <DamageBonusType>Untyped</DamageBonusType>
+    <SkillCheckBonusType>Untyped</SkillCheckBonusType>
+    <SaveBonusType>Untyped</SaveBonusType>
+    <DCBonusType>Untyped</DCBonusType>
+    <CMDType>All</CMDType>
+    <CMBType>All</CMBType>
+    <ArmorBonusType>Untyped</ArmorBonusType>
+    <AllBonusType>Untyped</AllBonusType>
+    <SaveVSpell>Untyped</SaveVSpell>
+    <ImmunityType>Acid</ImmunityType>
+    <DamageReductionType>None</DamageReductionType>
+    <AbilityScoreBonusType>Untyped</AbilityScoreBonusType>
+    <StatisticType>Strength</StatisticType>
+  </ModifierData>
+  <ModifierData>
+    <Id>007ad5aed30d4a58bc62412c1d3b7ff6</Id>
+    <ModifierName>+1 AC</ModifierName>
+    <ModifierDescription>Raises AC 1</ModifierDescription>
+    <ModificationType>ArmorClass</ModificationType>
+    <ModificationAmount>1</ModificationAmount>
+    <AttackBonusType>Untyped</AttackBonusType>
+    <DamageBonusType>Untyped</DamageBonusType>
+    <SkillCheckBonusType>Untyped</SkillCheckBonusType>
+    <SaveBonusType>Untyped</SaveBonusType>
+    <DCBonusType>Untyped</DCBonusType>
+    <CMDType>All</CMDType>
+    <CMBType>All</CMBType>
+    <ArmorBonusType>Untyped</ArmorBonusType>
+    <AllBonusType>Untyped</AllBonusType>
+    <SaveVSpell>Untyped</SaveVSpell>
+    <ImmunityType>Acid</ImmunityType>
+    <DamageReductionType>None</DamageReductionType>
+    <AbilityScoreBonusType>Untyped</AbilityScoreBonusType>
+    <StatisticType>Strength</StatisticType>
+  </ModifierData>
+  <ModifierData>
+    <Id>33cfd954b63b45d4953e06a841d9bfdb</Id>
+    <ModifierName>+2 Strength (Morale)</ModifierName>
+    <ModifierDescription>Adds a +2 Morale bonus to Strength</ModifierDescription>
+    <ModificationType>Statistic</ModificationType>
+    <ModificationAmount>2</ModificationAmount>
+    <AttackBonusType>Untyped</AttackBonusType>
+    <DamageBonusType>Untyped</DamageBonusType>
+    <SkillCheckBonusType>Untyped</SkillCheckBonusType>
+    <SaveBonusType>Untyped</SaveBonusType>
+    <DCBonusType>Untyped</DCBonusType>
+    <CMDType>All</CMDType>
+    <CMBType>All</CMBType>
+    <ArmorBonusType>Untyped</ArmorBonusType>
+    <AllBonusType>Untyped</AllBonusType>
+    <SaveVSpell>Untyped</SaveVSpell>
+    <ImmunityType>Acid</ImmunityType>
+    <DamageReductionType>None</DamageReductionType>
+    <AbilityScoreBonusType>Untyped</AbilityScoreBonusType>
+    <StatisticType>Strength</StatisticType>
+  </ModifierData>
+  <ModifierData>
+    <Id>1fb9346ef8b04893ad7d298573f0faec</Id>
+    <ModifierName>+2 Constitution (Enhancement)</ModifierName>
+    <ModifierDescription>Adds a 2 Enhancement to Constitution</ModifierDescription>
+    <ModificationType>Statistic</ModificationType>
+    <ModificationAmount>2</ModificationAmount>
+    <AttackBonusType>Untyped</AttackBonusType>
+    <DamageBonusType>Untyped</DamageBonusType>
+    <SkillCheckBonusType>Untyped</SkillCheckBonusType>
+    <SaveBonusType>Untyped</SaveBonusType>
+    <DCBonusType>Untyped</DCBonusType>
+    <CMDType>All</CMDType>
+    <CMBType>All</CMBType>
+    <ArmorBonusType>Untyped</ArmorBonusType>
+    <AllBonusType>Untyped</AllBonusType>
+    <SaveVSpell>Untyped</SaveVSpell>
+    <ImmunityType>Acid</ImmunityType>
+    <DamageReductionType>None</DamageReductionType>
+    <AbilityScoreBonusType>Untyped</AbilityScoreBonusType>
+    <StatisticType>Constitution</StatisticType>
+  </ModifierData>
+  <ModifierData>
+    <Id>b154d321e51848339773e06673a90df4</Id>
+    <ModifierName>+2 Strength (Untyped)</ModifierName>
+    <ModifierDescription>Adds an untyped +2 Strength bonus</ModifierDescription>
+    <ModificationType>Statistic</ModificationType>
+    <ModificationAmount>2</ModificationAmount>
+    <AttackBonusType>Untyped</AttackBonusType>
+    <DamageBonusType>Untyped</DamageBonusType>
+    <SkillCheckBonusType>Untyped</SkillCheckBonusType>
+    <SaveBonusType>Untyped</SaveBonusType>
+    <DCBonusType>Untyped</DCBonusType>
+    <CMDType>All</CMDType>
+    <CMBType>All</CMBType>
+    <ArmorBonusType>Untyped</ArmorBonusType>
+    <AllBonusType>Untyped</AllBonusType>
+    <SaveVSpell>Untyped</SaveVSpell>
+    <ImmunityType>Acid</ImmunityType>
+    <DamageReductionType>None</DamageReductionType>
+    <AbilityScoreBonusType>Untyped</AbilityScoreBonusType>
+    <StatisticType>Strength</StatisticType>
+  </ModifierData>
+  <ModifierData>
+    <Id>ba63b5756c304cfb95faa388e03be846</Id>
+    <ModifierName>Trip +2</ModifierName>
+    <ModifierDescription />
+    <ModificationType>CMB</ModificationType>
+    <ModificationAmount>2</ModificationAmount>
+    <AttackBonusType>Untyped</AttackBonusType>
+    <DamageBonusType>Untyped</DamageBonusType>
+    <SkillCheckBonusType>Untyped</SkillCheckBonusType>
+    <SaveBonusType>Untyped</SaveBonusType>
+    <DCBonusType>Untyped</DCBonusType>
+    <CMDType>All</CMDType>
+    <CMBType>Trip</CMBType>
+    <ArmorBonusType>Untyped</ArmorBonusType>
+    <AllBonusType>Untyped</AllBonusType>
+    <SaveVSpell>Untyped</SaveVSpell>
+    <ImmunityType>Acid</ImmunityType>
+    <DamageReductionType>None</DamageReductionType>
+    <AbilityScoreBonusType>Untyped</AbilityScoreBonusType>
+    <StatisticType>Strength</StatisticType>
+  </ModifierData>
+</ArrayOfModifierData>

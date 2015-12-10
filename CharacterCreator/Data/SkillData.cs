@@ -10,7 +10,7 @@ namespace CharacterCreator.Data
 {
 	public class SkillData:BaseData
 	{
-		public SkillData()
+		public SkillData() : base()
 		{ 
 			this.skillName = "New Skill";
 		}

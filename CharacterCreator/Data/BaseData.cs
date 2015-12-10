@@ -11,6 +11,22 @@ namespace CharacterCreator.Data
 {
 	public class BaseData: INotifyPropertyChanged
 	{
+		private string id;
+		public string Id
+		{
+			get { return this.id; }
+			set
+			{
+				this.id = value;
+				this.NotifyPropertyChanged("Id");
+			}
+		}
+
+		protected BaseData()
+		{
+			this.Id = Guid.NewGuid().ToString("N");
+		}
+
 		protected void NotifyPropertyChanged(string propertyName)
 		{
 			this.InvokePropertyChanged(new PropertyChangedEventArgs(propertyName));

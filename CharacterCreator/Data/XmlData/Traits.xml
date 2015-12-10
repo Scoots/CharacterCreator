@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTraitData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TraitData>
+    <Id>2e4691682bee43ba99e4caeb52fd4759</Id>
+    <TraitName>Magical Lineage</TraitName>
+    <TraitDescription>Test</TraitDescription>
+    <TraitType>Regional</TraitType>
+    <ConditionalState>Always</ConditionalState>
+    <CampaignName>Null</CampaignName>
+    <RaceName>Null</RaceName>
+    <RegionName>FiveKingsMountains</RegionName>
+    <ReligionName>Null</ReligionName>
+    <ModifierIdList>
+      <string>80becc026ef74023af7ac803011adda5</string>
+      <string>1fb9346ef8b04893ad7d298573f0faec</string>
+    </ModifierIdList>
+  </TraitData>
+  <TraitData>
+    <Id>4eb587b53c744c7bb9250b3253ec153a</Id>
+    <TraitName>Fart</TraitName>
+    <TraitDescription>Test3</TraitDescription>
+    <TraitType>Magic</TraitType>
+    <ConditionalState>Always</ConditionalState>
+    <CampaignName>Null</CampaignName>
+    <RaceName>Null</RaceName>
+    <RegionName>Null</RegionName>
+    <ReligionName>Null</ReligionName>
+    <ModifierIdList />
+  </TraitData>
+</ArrayOfTraitData>

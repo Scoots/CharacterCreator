@@ -10,7 +10,7 @@ namespace CharacterCreator.Data
 {
 	public class ClassData : BaseData
 	{
-		public ClassData()
+		public ClassData() : base()
 		{ }
 
 		private string className;

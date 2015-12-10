@@ -38,6 +38,7 @@
 			this.featToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.skillToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.traitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.modifiersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -86,7 +87,8 @@
             this.classToolStripMenuItem,
             this.featToolStripMenuItem,
             this.skillToolStripMenuItem,
-            this.traitToolStripMenuItem});
+            this.traitToolStripMenuItem,
+            this.modifiersToolStripMenuItem});
 			this.dataGeneratorsToolStripMenuItem.Name = "dataGeneratorsToolStripMenuItem";
 			this.dataGeneratorsToolStripMenuItem.Size = new System.Drawing.Size(103, 20);
 			this.dataGeneratorsToolStripMenuItem.Text = "Data Generators";
@@ -119,6 +121,13 @@
 			this.traitToolStripMenuItem.Text = "Trait";
 			this.traitToolStripMenuItem.Click += new System.EventHandler(this.traitToolStripMenuItem_Click);
 			// 
+			// modifiersToolStripMenuItem
+			// 
+			this.modifiersToolStripMenuItem.Name = "modifiersToolStripMenuItem";
+			this.modifiersToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.modifiersToolStripMenuItem.Text = "Modifiers";
+			this.modifiersToolStripMenuItem.Click += new System.EventHandler(this.modifiersToolStripMenuItem_Click);
+			// 
 			// PathfinderAdmin
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -147,6 +156,7 @@
 		private System.Windows.Forms.ToolStripMenuItem featToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem skillToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem traitToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem modifiersToolStripMenuItem;
 	}
 }
 

@@ -10,9 +10,10 @@ namespace CharacterCreator.Data
 {
 	public class TraitData : BaseData
 	{
-		public TraitData()
+		public TraitData() : base()
 		{
 			this.traitName = "New Trait";
+			this.ModifierIdList = new List<string>();
 		}
 
 		private string traitName;
@@ -38,7 +39,7 @@ namespace CharacterCreator.Data
 		}
 
 		private TraitType traitType;
-		public TraitType TratiType
+		public TraitType TraitType
 		{
 			get { return this.traitType; }
 			set
@@ -47,5 +48,62 @@ namespace CharacterCreator.Data
 				this.NotifyPropertyChanged("TraitType");
 			}
 		}
+
+		private ConditionalStates conditionalState;
+		public ConditionalStates ConditionalState
+		{
+			get { return this.conditionalState; }
+			set
+			{
+				this.conditionalState = value;
+				this.NotifyPropertyChanged("ConditionalState");
+			}
+		}
+
+		private CampaignNames campaignName;
+		public CampaignNames CampaignName
+		{
+			get { return this.campaignName; }
+			set
+			{
+				this.campaignName = value;
+				this.NotifyPropertyChanged("CampaignName");
+			}
+		}
+
+		private RaceNames raceName;
+		public RaceNames RaceName
+		{
+			get { return this.raceName; }
+			set
+			{
+				this.raceName = value;
+				this.NotifyPropertyChanged("RaceName");
+			}
+		}
+
+		private RegionNames regionName;
+		public RegionNames RegionName
+		{
+			get { return this.regionName; }
+			set
+			{
+				this.regionName = value;
+				this.NotifyPropertyChanged("RegionName");
+			}
+		}
+
+		private ReligionNames religionName;
+		public ReligionNames ReligionName
+		{
+			get { return this.religionName; }
+			set
+			{
+				this.religionName = value;
+				this.NotifyPropertyChanged("ReligionName");
+			}
+		}
+
+		public List<string> ModifierIdList { get; set; }
 	}
 }
